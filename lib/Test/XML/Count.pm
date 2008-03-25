@@ -28,7 +28,7 @@ our @EXPORT = qw(
 	xml_max_nodes
 );
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 my $TEST = Test::Builder->new();
 my $PARSER = XML::LibXML->new();
@@ -111,7 +111,7 @@ This is a great way to validate the structure of your XML documents without
 doing any deep (SLOW) comparison.  It also avoids having to hard code fragile 
 element values that may change between tests or over time.  Use 
 L<Test::XML::Count> in conjunction with your existing XML testing tools -- 
-L<SEE ALSO>.
+L<"SEE ALSO">.
 
 =head1 SHAMELESS PLUG
 
@@ -122,7 +122,7 @@ and let us know how you are using this module.
 
 Please visit L<http://open.nytimes.com>, our open source blog to see what we    
 are up to, L<http://code.nytimes.com> to see some of our open projects and then 
-check out L<htt://nytimes.com> for the latest news!
+check out L<http://nytimes.com> for the latest news!
 
 =head1 SUBROUTINES
 
@@ -149,17 +149,22 @@ C<$name>.
 
 =head1 EXPORTS
 
-Everything in L<SUBROUTINES> by default, as expected.
+Everything in L<"SUBROUTINES"> by default, as expected.
 
 =head1 SEE ALSO
 
 L<Test::XML>
+
 L<Test::More>
+
 L<Test::Builder>
+
 L<XML::LibXML>
 
 XPath Specification: L<http://www.w3.org/TR/xpath>
+
 XPath For Dummies: L<http://www.w3schools.com/xpath/xpath_syntax.asp>
+
 Our code blog: L<http://open.nytimes.com>
 
 =head1 AUTHOR

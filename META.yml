@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Test-XML-Count
-version:             0.01
+version:             0.02
 abstract:            Perl extension for testing element count at a certain depth
 license:             perl
 author:              
